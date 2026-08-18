@@ -1,4 +1,3 @@
-import InstagramIcon from "./icons/InstagramIcon";
 import Container from "./Container";
 import WhatsAppButton from "./WhatsAppButton";
 import { site } from "@/lib/config";
@@ -27,21 +26,12 @@ export default function Hero() {
         </h1>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
           Bikabu menghadirkan home decor dan souvenir custom dari anyaman daun
-          kering, buku batik, dan kain — dibuat langsung oleh pengrajin
+          kering, buku batik, dan kain yang dibuat langsung oleh pengrajin
           perempuan lokal Yogyakarta.
         </p>
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
           <WhatsAppButton label="Order / Tanya via WhatsApp" />
-          <a
-            href={site.instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/70 px-6 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-white hover:text-ink sm:text-base"
-          >
-            <InstagramIcon size={20} />
-            Lihat @{site.instagramHandle}
-          </a>
         </div>
       </Container>
     </section>

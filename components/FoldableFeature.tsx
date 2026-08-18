@@ -27,7 +27,7 @@ export default function FoldableFeature() {
           <p className="mt-5 leading-relaxed text-ink-soft">
             Beberapa produk box anyaman daun Bikabu didesain agar bisa
             dibongkar-pasang. Praktis untuk disimpan saat tidak dipakai, dan
-            lebih efisien saat proses pengiriman — tanpa mengurangi kekuatan
+            lebih efisien saat proses pengiriman, tanpa mengurangi kekuatan
             struktur maupun keindahan motif daunnya.
           </p>
           <div className="mt-8">

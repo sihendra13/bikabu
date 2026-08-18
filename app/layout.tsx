@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bikabu — Kerajinan Anyaman Daun, Buku & Kain Handmade Jogja",
+  title: "Bikabu | Kerajinan Anyaman Daun, Buku & Kain Handmade Jogja",
   description:
-    "Bikabu adalah kerajinan handmade dari kain, buku, dan anyaman daun kering asal Yogyakarta. Home decor, hampers, dan souvenir custom order — dibuat oleh pengrajin perempuan lokal.",
+    "Bikabu adalah kerajinan handmade dari kain, buku, dan anyaman daun kering asal Yogyakarta. Home decor, hampers, dan souvenir custom order yang dibuat oleh pengrajin perempuan lokal.",
   keywords: [
     "bikabu",
     "kerajinan daun",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     "kerajinan handmade jogja",
   ],
   openGraph: {
-    title: "Bikabu — Kerajinan Anyaman Daun, Buku & Kain Handmade Jogja",
+    title: "Bikabu | Kerajinan Anyaman Daun, Buku & Kain Handmade Jogja",
     description:
-      "Home decor & souvenir custom dari anyaman daun kering, buku batik, dan kain — handmade oleh pengrajin lokal Yogyakarta.",
+      "Home decor & souvenir custom dari anyaman daun kering, buku batik, dan kain, handmade oleh pengrajin lokal Yogyakarta.",
     type: "website",
     locale: "id_ID",
   },

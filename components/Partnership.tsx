@@ -26,14 +26,14 @@ export default function Partnership() {
         <div>
           <Quote size={40} className="text-primary" aria-hidden="true" />
           <p className="mt-6 font-display text-2xl leading-snug sm:text-3xl">
-            Setiap pesanan yang masuk bukan sekadar transaksi — hasilnya
+            Setiap pesanan yang masuk bukan sekadar transaksi. Hasilnya
             membantu keluarga pengrajin memperbaiki rumah dan membuka jalan
             bagi masa depan anak-anak mereka. Nila terus menjembatani karya
             para perempuan di desa-desa Yogyakarta ini agar dikenal lebih
             luas.
           </p>
           <p className="mt-6 text-sm uppercase tracking-widest text-cream/60">
-            — Nila, Penggerak Jaringan Pengrajin Bikabu
+            Nila, Penggerak Jaringan Pengrajin Bikabu
           </p>
         </div>
 

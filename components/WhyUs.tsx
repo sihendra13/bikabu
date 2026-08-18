@@ -10,7 +10,7 @@ const points = [
   {
     Icon: Leaf,
     title: "Material Alami",
-    desc: "Daun kering, kain, dan kertas — ramah lingkungan dan biodegradable.",
+    desc: "Daun kering, kain, dan kertas yang ramah lingkungan dan biodegradable.",
   },
   {
     Icon: PencilRuler,

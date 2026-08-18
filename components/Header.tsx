@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import InstagramIcon from "./icons/InstagramIcon";
 import Container from "./Container";
 import WhatsAppButton from "./WhatsAppButton";
 import { site } from "@/lib/config";
@@ -37,15 +36,6 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <a
-            href={site.instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram Bikabu"
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-sand text-ink-soft transition-colors duration-200 hover:border-primary hover:text-primary"
-          >
-            <InstagramIcon size={20} />
-          </a>
           <WhatsAppButton label="Order Sekarang" />
         </div>
 
@@ -73,14 +63,6 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href={site.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg px-3 py-3 text-base font-medium text-ink-soft transition-colors duration-200 hover:bg-sand/30 hover:text-primary"
-            >
-              Instagram @{site.instagramHandle}
-            </a>
             <WhatsAppButton label="Order Sekarang" className="mt-2 w-full" />
           </Container>
         </div>

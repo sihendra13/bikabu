@@ -47,15 +47,15 @@ export default function About() {
           </h2>
           <p className="mt-5 leading-relaxed text-ink-soft">
             Bikabu lahir dari kerja Nila, yang bertahun-tahun mencari dan
-            mendampingi pengrajin perempuan di desa-desa sekitar Yogyakarta —
+            mendampingi pengrajin perempuan di desa-desa sekitar Yogyakarta,
             termasuk keluarga pengrajin di pegunungan yang mengolah bahan
             alami dari hutan di sekitar rumah mereka menjadi anyaman
             bernilai.
           </p>
           <p className="mt-4 leading-relaxed text-ink-soft">
             Daun kering yang menjadi ciri khas produk kami adalah bahan baku
-            terbarukan, khas daerah ini — dipilih, diproses, dan dianyam
-            dengan tangan oleh para pengrajin lokal.
+            terbarukan khas daerah ini. Setiap lembar dipilih, diproses, dan
+            dianyam dengan tangan oleh para pengrajin lokal.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-6 border-t border-sand pt-8">

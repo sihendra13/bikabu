@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <p className="font-display text-2xl font-semibold text-white">{site.name}</p>
           <p className="mt-2 max-w-xs text-sm leading-relaxed text-cream/60">
-            {site.tagline} — dibuat dengan tangan oleh pengrajin lokal
+            {site.tagline}, dibuat dengan tangan oleh pengrajin lokal
             Yogyakarta.
           </p>
         </div>

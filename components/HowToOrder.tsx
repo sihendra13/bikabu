@@ -6,7 +6,7 @@ const steps = [
   {
     Icon: MessageCircle,
     title: "Chat via WhatsApp / DM",
-    desc: "Ceritakan kebutuhan Anda — produk, jumlah, atau ide custom yang diinginkan.",
+    desc: "Ceritakan kebutuhan Anda, mulai dari produk, jumlah, hingga ide custom yang diinginkan.",
   },
   {
     Icon: Palette,

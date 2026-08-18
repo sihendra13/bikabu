@@ -20,7 +20,7 @@ const products = [
   {
     title: "Buku & Jurnal Batik Custom",
     description:
-      "Notebook, jurnal, dan bookmark dengan cover kain batik — bisa custom motif dan ukuran.",
+      "Notebook, jurnal, dan bookmark dengan cover kain batik yang bisa custom motif dan ukuran.",
     waMessage: "Halo Bikabu, saya mau tanya soal Buku & Jurnal Batik Custom.",
     Icon: BookOpen,
   },
