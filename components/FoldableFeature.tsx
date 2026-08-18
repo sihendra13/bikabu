@@ -19,21 +19,21 @@ export default function FoldableFeature() {
 
         <div>
           <p className="text-sm font-medium uppercase tracking-widest text-primary">
-            Desain Praktis
+            Koleksi Premium
           </p>
           <h2 className="mt-3 font-display text-3xl font-semibold text-ink sm:text-4xl">
-            Bisa Dilipat, Mudah Disimpan & Dikirim
+            Desain Luxury & Eksklusif
           </h2>
           <p className="mt-5 leading-relaxed text-ink-soft">
-            Beberapa produk box anyaman daun Bikabu didesain agar bisa
-            dibongkar-pasang. Praktis untuk disimpan saat tidak dipakai, dan
-            lebih efisien saat proses pengiriman, tanpa mengurangi kekuatan
-            struktur maupun keindahan motif daunnya.
+            Setiap produk anyaman daun Bikabu dirancang dengan sentuhan kemewahan
+            dan nilai eksklusif tinggi. Detail motif daun alami yang elegan
+            dipadukan dengan struktur anyaman yang kokoh, menjadikannya bukan
+            sekadar wadah, melainkan karya seni dekorasi premium yang memukau.
           </p>
           <div className="mt-8">
             <WhatsAppButton
               label="Tanya Ukuran & Harga"
-              message="Halo Bikabu, saya mau tanya soal box anyaman daun yang bisa dilipat."
+              message="Halo Bikabu, saya tertarik dengan koleksi desain eksklusif anyaman daunnya."
               variant="outline"
             />
           </div>

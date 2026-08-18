@@ -1,6 +1,6 @@
 export const site = {
   name: "Bikabu",
-  tagline: "Handcrafted dari Kain, Buku & Anyaman Daun",
+  tagline: "Handcrafted dari Daun, Kain, Buku & Anyaman Bambu",
   location: "Yogyakarta, Indonesia",
   instagramHandle: "bi.ka.bu",
   instagramUrl: "https://instagram.com/bi.ka.bu",
