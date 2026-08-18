@@ -9,8 +9,20 @@ const badges = [
 
 export default function Partnership() {
   return (
-    <section className="bg-ink py-20 text-cream sm:py-28">
-      <Container className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
+    <section className="relative overflow-hidden bg-ink py-20 text-cream sm:py-28">
+      {/* Video Background */}
+      <video
+        src="/videos/bg-partnership.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-ink/85" />
+
+      <Container className="relative z-10 grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
         <div>
           <Quote size={40} className="text-primary" aria-hidden="true" />
           <p className="mt-6 font-display text-2xl leading-snug sm:text-3xl">
