@@ -1,4 +1,3 @@
-import Image from "next/image";
 import InstagramIcon from "./icons/InstagramIcon";
 import Container from "./Container";
 import WhatsAppButton from "./WhatsAppButton";
@@ -7,13 +6,15 @@ import { site } from "@/lib/config";
 export default function Hero() {
   return (
     <section id="top" className="relative flex min-h-[85vh] items-center overflow-hidden sm:min-h-[92vh]">
-      <Image
-        src="/images/produk-keranjang-daun-outdoor.jpg"
-        alt="Keranjang anyaman daun kering Bikabu, dibuat dari daun kering asli"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
+      <video
+        className="absolute inset-0 h-full w-full object-cover"
+        src="/videos/hero-workshop.mp4"
+        poster="/images/hero-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-label="Workshop produksi kerajinan anyaman daun Bikabu"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/45 to-ink/20" />
 
