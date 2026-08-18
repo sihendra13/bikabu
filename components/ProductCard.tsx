@@ -8,9 +8,17 @@ type Props = {
   waMessage: string;
   image?: string;
   Icon?: LucideIcon;
+  ctaLabel?: string;
 };
 
-export default function ProductCard({ title, description, waMessage, image, Icon }: Props) {
+export default function ProductCard({
+  title,
+  description,
+  waMessage,
+  image,
+  Icon,
+  ctaLabel = "Tanya Harga & Custom",
+}: Props) {
   return (
     <div className="group flex flex-col overflow-hidden rounded-3xl bg-cream-soft ring-1 ring-sand/60 transition-transform duration-300 hover:-translate-y-1">
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-sand/40">
@@ -38,7 +46,7 @@ export default function ProductCard({ title, description, waMessage, image, Icon
           className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors duration-200 hover:text-primary-dark"
         >
           <MessageCircle size={16} aria-hidden="true" />
-          Tanya Harga & Custom
+          {ctaLabel}
         </a>
       </div>
     </div>

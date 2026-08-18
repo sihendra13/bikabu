@@ -2,19 +2,19 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Container from "./Container";
-import WhatsAppButton from "./WhatsAppButton";
-import LangSwitcher from "./LangSwitcher";
-import { site } from "@/lib/config";
+import Container from "../Container";
+import WhatsAppButton from "../WhatsAppButton";
+import LangSwitcher from "../LangSwitcher";
+import { site, defaultWaMessageEn } from "@/lib/config";
 
 const navLinks = [
-  { href: "#tentang", label: "Tentang" },
-  { href: "#produk", label: "Produk" },
-  { href: "#kenapa-kami", label: "Kenapa Kami" },
-  { href: "#cara-order", label: "Cara Order" },
+  { href: "#about", label: "About" },
+  { href: "#products", label: "Products" },
+  { href: "#why-us", label: "Why Us" },
+  { href: "#how-to-order", label: "How to Order" },
 ];
 
-export default function Header() {
+export default function HeaderEn() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -37,14 +37,14 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <LangSwitcher current="id" />
-          <WhatsAppButton label="Order Sekarang" />
+          <LangSwitcher current="en" />
+          <WhatsAppButton label="Order Now" message={defaultWaMessageEn} />
         </div>
 
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          aria-label={open ? "Tutup menu" : "Buka menu"}
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           className="flex h-11 w-11 items-center justify-center rounded-full text-ink lg:hidden"
         >
@@ -66,8 +66,8 @@ export default function Header() {
               </a>
             ))}
             <div className="mt-2 flex items-center justify-between gap-3">
-              <LangSwitcher current="id" />
-              <WhatsAppButton label="Order Sekarang" className="flex-1" />
+              <LangSwitcher current="en" />
+              <WhatsAppButton label="Order Now" message={defaultWaMessageEn} className="flex-1" />
             </div>
           </Container>
         </div>

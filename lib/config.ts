@@ -13,3 +13,6 @@ export function waLink(message: string) {
 
 export const defaultWaMessage =
   "Halo Bikabu, saya tertarik dengan produk kerajinan daun/buku custom. Boleh minta info lebih lanjut?";
+
+export const defaultWaMessageEn =
+  "Hi Bikabu, I'm interested in your handcrafted leaf/book products. Could you share more information?";
