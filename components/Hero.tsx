@@ -23,7 +23,7 @@ export default function Hero() {
           Handmade · {site.location}
         </p>
         <h1 className="max-w-2xl font-display text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
-          Kerajinan Kain, Buku &amp; Anyaman Daun, Dirajut dengan Tangan
+          Kerajinan Daun, Kain, Buku &amp; Anyaman Bambu Dirajut dengan Tangan
         </h1>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
           Bikabu menghadirkan home decor dan souvenir custom dari anyaman daun

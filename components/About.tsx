@@ -1,18 +1,41 @@
-import Image from "next/image";
 import Container from "./Container";
-
 export default function About() {
   return (
     <section id="tentang" className="py-20 sm:py-28">
       <Container className="grid items-center gap-12 lg:grid-cols-2">
-        <div className="relative order-2 aspect-[4/5] w-full overflow-hidden rounded-3xl lg:order-1">
-          <Image
-            src="/images/produk-keranjang-daun-cream.jpg"
-            alt="Keranjang anyaman daun kering Bikabu warna cream, hasil kerajinan tangan"
-            fill
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            className="object-cover"
-          />
+        <div className="relative order-2 aspect-[4/5] w-full overflow-hidden rounded-3xl lg:order-1 flex gap-2">
+          <div className="w-1/2 h-full relative">
+            <video
+              src="/videos/video1.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-1/2 h-full flex flex-col gap-2">
+            <div className="h-[calc(50%-0.25rem)] w-full relative">
+              <video
+                src="/videos/video2.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-[calc(50%-0.25rem)] w-full relative">
+              <video
+                src="/videos/video3.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="order-1 lg:order-2">
