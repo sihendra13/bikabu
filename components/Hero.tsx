@@ -8,13 +8,13 @@ export default function Hero() {
     <section id="top" className="relative flex min-h-[85vh] items-center overflow-hidden sm:min-h-[92vh]">
       <video
         className="absolute inset-0 h-full w-full object-cover"
-        src="/videos/hero-workshop.mp4"
+        src="/videos/hero-anyaman-daun.mp4"
         poster="/images/hero-poster.jpg"
         autoPlay
         muted
         loop
         playsInline
-        aria-label="Workshop produksi kerajinan anyaman daun Bikabu"
+        aria-label="Pengrajin perempuan Bikabu menempelkan motif daun kering pada keranjang anyaman"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/45 to-ink/20" />
 
